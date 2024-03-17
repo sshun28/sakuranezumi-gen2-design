@@ -1,0 +1,107 @@
+<mxfile host="65bd71144e">
+    <diagram id="sfncVf7Ia6d5j3yyJuRj" name="ページ1">
+        <mxGraphModel dx="1089" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="29" value="車両" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="240" width="600" height="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="IMU" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="エンコーダx2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="光センサ x4" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="560" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;" parent="1" source="5" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;" parent="1" source="5" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;startArrow=classic;startFill=1;" parent="1" source="5" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;startArrow=classic;startFill=1;" parent="1" source="5" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;startArrow=classic;startFill=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="5" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="570" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;startArrow=classic;startFill=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="5" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="580" y="360"/>
+                            <mxPoint x="600" y="360"/>
+                            <mxPoint x="660" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;" edge="1" parent="1" source="5" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="5" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="MCU" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="400" width="120" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="駆動モータx2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="吸引モータ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="560" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="不揮発メモリ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="640" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="昇降圧コンバータ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="外部システム" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="40" width="600" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="バッテリ x2S" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="280" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;startArrow=classic;startFill=1;" parent="1" source="24" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="光通信トランシーバ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="280" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="光通信トランシーバ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="ストロボLED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="640" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="32" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="外部RAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="720" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="表示LED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="720" width="120" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
